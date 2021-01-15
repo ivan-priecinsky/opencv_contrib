@@ -52,7 +52,8 @@
 #include <cmath>
 #include <time.h>
 #include <fstream>
-#include <stdint.h>
+
+#include "opencv2/core/cv_stdint.h"
 
 // TODO: reference additional headers your program requires here
 

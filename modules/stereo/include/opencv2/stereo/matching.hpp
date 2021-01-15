@@ -44,7 +44,8 @@
 *   The interface contains the main methods for computing the matching between the left and right images	      *
 *                                                                                                                 *
 \******************************************************************************************************************/
-#include <stdint.h>
+
+#include "opencv2/core/cv_stdint.h"
 
 #ifndef _OPENCV_MATCHING_HPP_
 #define _OPENCV_MATCHING_HPP_

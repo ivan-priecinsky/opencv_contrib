@@ -47,6 +47,10 @@
 #include <opencv2/dnn/dict.hpp>
 #include <opencv2/dnn/blob.hpp>
 
+#ifdef UNDER_CE
+#  undef STRICT
+#endif
+
 namespace cv
 {
 namespace dnn //! This namespace is used for dnn module functionlaity.

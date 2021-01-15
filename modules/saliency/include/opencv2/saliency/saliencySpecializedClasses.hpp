@@ -46,8 +46,9 @@
 #include <cstdio>
 #include <string>
 #include <iostream>
-#include <stdint.h>
+
 #include "opencv2/core.hpp"
+#include "opencv2/core/cv_stdint.h"
 
 namespace cv
 {

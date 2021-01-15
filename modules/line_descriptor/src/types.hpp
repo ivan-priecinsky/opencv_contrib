@@ -40,11 +40,7 @@
  //
  //M*/
 
-#if defined _MSC_VER && _MSC_VER <= 1700
-#include <stdint.h>
-#else
-#include <inttypes.h>
-#endif
+#include "opencv2/core/cv_stdint.h"
 
 #ifndef __OPENCV_TYPES_HPP
 #define __OPENCV_TYPES_HPP
